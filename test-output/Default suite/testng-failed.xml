@@ -3,13 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.testautomation.TestRunner.TestRunner">
+      <class name="com.apiautomation.Tests.CaseStudyAPIAutomation">
         <methods>
-          <include name="setUpClass"/>
-          <include name="tearDownClass"/>
-          <include name="feature" invocation-numbers="0"/>
+          <include name="CaseStudyAPIAutomationPositiveScenario1"/>
         </methods>
-      </class> <!-- com.testautomation.TestRunner.TestRunner -->
+      </class> <!-- com.apiautomation.Tests.CaseStudyAPIAutomation -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

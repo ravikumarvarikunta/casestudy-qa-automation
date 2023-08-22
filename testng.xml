@@ -8,6 +8,7 @@
   <test name="Automation Test Report">
     <classes>
       <class name="com.testautomation.TestRunner.TestRunner"/>
+      <class name="com.apiautomation.Tests.CaseStudyAPIAutomation"/>
     </classes>
   </test> 
    

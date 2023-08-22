@@ -6,15 +6,11 @@
   </listeners>
   <test thread-count="5" name="Automation Test Report(failed)">
     <classes>
-      <class name="com.testautomation.TestRunner.TestRunner">
+      <class name="com.apiautomation.Tests.CaseStudyAPIAutomation">
         <methods>
-          <include name="setUpClass"/>
-          <include name="tearDownClass"/>
-          <include name="afterSuite"/>
-          <include name="feature" invocation-numbers="0"/>
-          <include name="beforeSuite"/>
+          <include name="CaseStudyAPIAutomationNegativeScenario"/>
         </methods>
-      </class> <!-- com.testautomation.TestRunner.TestRunner -->
+      </class> <!-- com.apiautomation.Tests.CaseStudyAPIAutomation -->
     </classes>
   </test> <!-- Automation Test Report(failed) -->
 </suite> <!-- Failed suite [Automation Test Report] -->

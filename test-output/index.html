@@ -92,7 +92,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">1 method,   1 passed</span>
+                    <span class="method-stats">3 methods,   3 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -101,6 +101,16 @@
                       <a href="#" panel-name="suite-Automation_Test_Report" class="show-methods passed suite-Automation_Test_Report"> (show)</a> <!-- show-methods passed suite-Automation_Test_Report -->
                     </span>
                     <div class="method-list-content passed suite-Automation_Test_Report">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Automation_Test_Report" title="com.apiautomation.Tests.CaseStudyAPIAutomation" class="method navigator-link" hash-for-method="CaseStudyAPIAutomationNegativeScenario">CaseStudyAPIAutomationNegativeScenario</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Automation_Test_Report" title="com.apiautomation.Tests.CaseStudyAPIAutomation" class="method navigator-link" hash-for-method="CaseStudyAPIAutomationPositiveScenario">CaseStudyAPIAutomationPositiveScenario</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Automation_Test_Report" title="com.testautomation.TestRunner.TestRunner" class="method navigator-link" hash-for-method="feature(&quot;Add Items to cart in saucedemo website&quot;, &quot;Sauce Demo End To End Testing&quot;)">feature("Add Items to cart in saucedemo website", "Sauce Demo End To End Testing")</a> <!-- method navigator-link -->
@@ -134,6 +144,28 @@
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
           </div> <!-- suite-Automation_Test_Report-class-passed -->
+          <div class="suite-Automation_Test_Report-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.apiautomation.Tests.CaseStudyAPIAutomation</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="CaseStudyAPIAutomationNegativeScenario">
+                  </a> <!-- CaseStudyAPIAutomationNegativeScenario -->
+                  <span class="method-name">CaseStudyAPIAutomationNegativeScenario</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="CaseStudyAPIAutomationPositiveScenario">
+                  </a> <!-- CaseStudyAPIAutomationPositiveScenario -->
+                  <span class="method-name">CaseStudyAPIAutomationPositiveScenario</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Automation_Test_Report-class-passed -->
         </div> <!-- panel Automation_Test_Report -->
         <div panel-name="test-xml-Automation_Test_Report" class="panel">
           <div class="main-panel-header rounded-window-top">
@@ -150,6 +182,7 @@
   &lt;test thread-count=&quot;5&quot; name=&quot;Automation Test Report&quot;&gt;
     &lt;classes&gt;
       &lt;class name=&quot;com.testautomation.TestRunner.TestRunner&quot;/&gt;
+      &lt;class name=&quot;com.apiautomation.Tests.CaseStudyAPIAutomation&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Automation Test Report --&gt;
 &lt;/suite&gt; &lt;!-- Automation Test Report --&gt;
@@ -163,7 +196,7 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Automation Test Report (1 class)</span>
+                <span class="test-name">Automation Test Report (2 classes)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -189,16 +222,24 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(1);
+data.addRows(3);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'feature')
-data.setCell(0, 2, 'com.testautomation.TestRunner.TestRunner')
-data.setCell(0, 3, 4736);
+data.setCell(0, 1, 'CaseStudyAPIAutomationNegativeScenario')
+data.setCell(0, 2, 'com.apiautomation.Tests.CaseStudyAPIAutomation')
+data.setCell(0, 3, 8144);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'feature')
+data.setCell(1, 2, 'com.testautomation.TestRunner.TestRunner')
+data.setCell(1, 3, 5412);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'CaseStudyAPIAutomationPositiveScenario')
+data.setCell(2, 2, 'com.apiautomation.Tests.CaseStudyAPIAutomation')
+data.setCell(2, 3, 728);
 window.suiteTableData['Automation_Test_Report']= { tableData: data, tableDiv: 'times-div-Automation_Test_Report'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 4 seconds</span>
+              <span class="suite-total-time">Total running time: 14 seconds</span>
               <div id="times-div-Automation_Test_Report">
               </div> <!-- times-div-Automation_Test_Report -->
             </div> <!-- times-div -->
@@ -231,19 +272,33 @@ return data;
               </div> <!-- configuration-suite before -->
               <div class="configuration-class before">
                 <span class="method-name">setUpClass</span>
-                <span class="method-start">9531 ms</span>
+                <span class="method-start">10102 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">feature("Add Items to cart in saucedemo website", "Sauce Demo End To End Testing")</span>
-                <span class="method-start">9887 ms</span>
+                <span class="method-start">10451 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDownClass</span>
-                <span class="method-start">14633 ms</span>
+                <span class="method-start">15872 ms</span>
               </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.apiautomation.Tests.CaseStudyAPIAutomation</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">CaseStudyAPIAutomationNegativeScenario</span>
+                <span class="method-start">15887 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">CaseStudyAPIAutomationPositiveScenario</span>
+                <span class="method-start">24050 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.testautomation.TestRunner.TestRunner</div> <!-- chronological-class-name -->
               <div class="configuration-suite after">
                 <span class="method-name">afterSuite</span>
-                <span class="method-start">15367 ms</span>
+                <span class="method-start">25660 ms</span>
               </div> <!-- configuration-suite after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
